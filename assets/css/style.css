@@ -1,0 +1,159 @@
+*{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:#777777;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+header {
+    background-color: #ffffff;
+    /*width: 100%;*/
+    font-family: 'Georgia', Times, serif;
+    
+
+    margin: 0 auto;
+    padding: 20px;
+
+    border-bottom: 3px solid;
+    border-color: #cccccc;
+}
+
+h1 {
+    margin-left: 130px;
+    display: inline;
+    background-color: #4aaaa5;
+    padding: 18px;
+
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Georgia', Times, serif;
+    
+    
+} 
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Georgia', Times, serif;
+    color: #4aaaa5;
+    padding: 20px;
+
+}
+
+.mainHeader {
+	margin-bottom: 20px;
+	border-bottom: 2px solid;
+    border-color: #cccccc;
+    text-align: left;
+}
+
+nav {
+    float:right;
+    margin-right:90px;
+}
+
+footer {
+    border-top: 6px solid;
+    border-color: #4aaaa5;
+    background-color: #666666;
+    text-align: center;
+    padding: 40px;
+    color: #cccccc;
+}
+
+a {
+    text-decoration: none;
+    padding: 15px;
+    color:#cccccc;
+}
+
+.mainBody {
+    width: 100%;
+    padding: 20px;
+    background-image: url("../images/concrete.png");
+}
+
+section {
+    overflow: auto;
+    width: 960px;
+    margin: 0 auto;
+}
+
+#mainContent {
+    /*position: relative;*/
+    float: left;
+    width: 650px;
+    padding: 20px;
+    background: #ffffff;
+    display: inline-block;
+
+    border: 3px solid;
+    border-color: #cccccc;
+}
+
+#mainContent img{
+    float: left;
+    padding-right: 10px;
+}
+
+
+aside {
+  width: 270px;
+  padding: 20px;
+  margin-left: 30px;
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+h3 {
+    font-size: 24px;
+    color: #4aaaaf;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+.cwm {
+	margin:20px;
+	border-bottom: 2px solid;
+    border-color: #cccccc;
+    text-align: left;
+}
+#connect {
+    float: right;
+    background-color: #ffffff;
+    width: 270px;
+    text-align: center;
+    display: inline-block;
+
+    border: 3px solid;
+    border-color: #cccccc;
+}
+
+#links {
+    display: flex;
+    margin: 0 auto;
+}
+
+#links img {
+    width: 50px;}
+
+form {
+	font-size: 16px;
+}
+input {
+	width: 100%;
+	line-height: 20px;
+	padding: 10px;
+	font-size: 14px;
+}
+
+textarea {
+	width: 100%;
+	line-height: 20px;
+	padding: 10px;
+	font-size: 14px;
+}
